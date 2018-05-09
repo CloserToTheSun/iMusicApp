@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BlackBacground"
+    android:orientation="vertical"
+    tools:context="com.example.android.imusicplay.MainActivity">
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/CategoryStyle"
+        android:background="@color/BlackBacground"
+        android:text="@string/playlist" />
+    <View
+        style="@style/view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+    <TextView
+        android:id="@+id/newSongs"
+        style="@style/CategoryStyle"
+        android:background="@color/BlackBacground"
+        android:text="@string/newsongs" />
+    <View
+        style="@style/view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+    <TextView
+        android:id="@+id/likedSongs"
+        style="@style/CategoryStyle"
+        android:background="@color/BlackBacground"
+        android:text="@string/liked_songs" />
+    <View
+        style="@style/view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+    <TextView
+        android:id="@+id/staion"
+        style="@style/CategoryStyle"
+        android:background="@color/BlackBacground"
+        android:text="@string/stations" />
+    <View
+        style="@style/view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+</LinearLayout>
